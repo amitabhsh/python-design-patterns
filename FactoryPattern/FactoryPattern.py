@@ -1,6 +1,12 @@
 import ConfigParser
 import datetime
-
+"""
+Author : Amitabh Sharma
+Basic Logger trying to demonstrate Factory Pattern in Python.
+ConsoleLogger, FileLogger classes implement a method log which can be determined by reading a Loggerproperties.ini
+file.
+This can be further extended to a DBLogger()
+"""
 
 class DateClass(object):
         """returns current date and time"""
@@ -26,7 +32,7 @@ class LogFactory(object):
         def shouldlogtofile(self):
                 config = ConfigParser.RawConfigParser()
                 config.read("Loggerproperties.ini")
-                return config.get("LoggerProperties","logToFile")
+                return config.getboolean("LoggerProperties","logToFile")
         def getLogger(self):
                 if(self.shouldlogtofile()):
                         return FileLogger()
