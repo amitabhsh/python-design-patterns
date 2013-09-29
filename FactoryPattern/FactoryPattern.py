@@ -8,6 +8,7 @@ file.
 This can be further extended to a DBLogger()
 """
 
+
 class DateClass(object):
         """returns current date and time"""
         @staticmethod
