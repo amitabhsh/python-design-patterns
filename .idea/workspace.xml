@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99d4c8ce-c2fb-4ca3-a954-8bbef2bcbe63" name="Default" comment="">
       <change type="DELETED" beforePath="F:\pythoncode\design patterns python\README.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="design patterns python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Prototype.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Prototype.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prototype/Prototype.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.45791245" vertical-offset="153" max-vertical-offset="748">
+            <state line="25" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractFactory.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory/AbstractFactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="40" selection-start="567" selection-end="567" vertical-scroll-proportion="0.82828283" vertical-offset="103" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -39,15 +47,6 @@
         <entry file="file://$PROJECT_DIR$/FactoryPattern/Logger.log">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Builder.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuilderPattern/Builder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -79,6 +78,7 @@
         <option value="$PROJECT_DIR$/SingletonPattern/Singleton.py" />
         <option value="$PROJECT_DIR$/BuilderPattern/Builder.py" />
         <option value="$PROJECT_DIR$/prototype/Prototype.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/AbstractFactory.py" />
       </list>
     </option>
   </component>
@@ -179,6 +179,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design patterns python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design patterns python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AbstractFactory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -202,7 +216,7 @@
       <recent name="F:\pythoncode\design patterns python\FactoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Prototype">
+  <component name="RunManager" selected="Python.AbstractFactory">
     <configuration default="false" name="FactoryPattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,6 +288,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="design patterns python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prototype/Prototype.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AbstractFactory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AbstractFactory" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="design patterns python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AbstractFactory/AbstractFactory.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -400,18 +432,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.FactoryPattern" />
       <item index="1" class="java.lang.String" itemvalue="Python.Singleton" />
       <item index="2" class="java.lang.String" itemvalue="Python.Builder" />
       <item index="3" class="java.lang.String" itemvalue="Python.Prototype" />
+      <item index="4" class="java.lang.String" itemvalue="Python.AbstractFactory" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Prototype" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Builder" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Singleton" />
-        <item index="3" class="java.lang.String" itemvalue="Python.FactoryPattern" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.AbstractFactory" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Prototype" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Builder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Singleton" />
+        <item index="4" class="java.lang.String" itemvalue="Python.FactoryPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -541,6 +575,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/prototype/Prototype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuilderPattern/Builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="-0.5740741" vertical-offset="426" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FactoryPattern/Logger.log">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
@@ -548,16 +596,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuilderPattern/Builder.py">
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/AbstractFactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/Prototype.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.45791245" vertical-offset="153" max-vertical-offset="748">
+        <state line="35" column="40" selection-start="567" selection-end="567" vertical-scroll-proportion="0.82828283" vertical-offset="103" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
